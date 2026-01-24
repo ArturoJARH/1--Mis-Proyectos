@@ -69,11 +69,15 @@ function pedirNumeros() {
                 }
 
                 console.log(`\nTu IMC es: ${imc.toFixed(2)} (${categoria})`);
+                console.log("\n|>>>>>>>>>>>>>>>>>>>>>>>>>>>>·<<<<<<<<<<<<<<<<<<<<<<<<<<<<|\n");
+                console.log("                    Fin del día 19                        ");
+                console.log("\n|>>>>>>>>>>>>>>>>>>>>>>>>>>>>·<<<<<<<<<<<<<<<<<<<<<<<<<<<<|\n");
                 rl.close();
             });
         });
     });
 }
+
 
 
 pedirNumeros();
